@@ -6,10 +6,10 @@
 ## Features
 
 -   **Realtime AI Detection:** Highlights code snippets that appear AI-generated immediately after pasting.
-- 🤯 **Probability Feedback:** Shows human vs. AI probability for the snippet.
-- 😎 **Randomized Warnings:** Get playful (or brutally honest) messages when AI-generated content is detected.
-- ⚡ **Progressive Setup:** Automatically sets up a Python virtual environment and installs required dependencies on first run.
-- ✅ **Lightweight & Self-contained:** Runs locally using a small AI model — no data leaves your machine.
+-   **Probability Feedback:** Shows human vs. AI probability for the snippet.
+-   **Randomized Warnings:** Get insulting messages when AI-generated content is detected.
+-   **Progressive Setup:** Automatically sets up a Python virtual environment and installs required dependencies on first run.
+-   **Lightweight & Self-contained:** Runs locally using a small AI model — no data leaves your machine.
 
 ---
 
