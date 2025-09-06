@@ -1,11 +1,28 @@
-.vscode/**
-.vscode-test/**
-src/**
+# Node modules and build output
+node_modules/
+out/
+dist/
+
+# VS Code test files
+.vscode-test/
+.vscode-test.mjs
+
+# Source code (TS) is compiled to out/, don't include TS files
+src/**/*.ts
+src/**/*.mjs
+
+# Git and version control
+.git/
 .gitignore
-.yarnrc
-vsc-extension-quickstart.md
-**/tsconfig.json
-**/eslint.config.mjs
+
+# Config files
+.vscode/**
+.vsc-extension-quickstart.md
+tsconfig.json
+eslint.config.mjs
+
+# Maps and compiled extras
 **/*.map
-**/*.ts
-**/.vscode-test.*
+
+# Ignore local Python virtual environment
+venv/
