@@ -1,11 +1,11 @@
 {
   "name": "ai-detector",
-  "displayName": "AI Detector",
+  "displayName": "AI copy & paste insults",
   "description": "Detects AI-generated code in VS Code and playfully insults the user if AI code is detected.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "bence132",
   "engines": {
-    "vscode": "^1.75.0"
+    "vscode": "^1.103.0"
   },
   "categories": [
     "Other"

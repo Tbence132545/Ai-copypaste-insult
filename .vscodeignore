@@ -1,21 +1,16 @@
-# Node modules and build output
+# Node modules and build output we don't want to publish
 node_modules/
-out/
 dist/
 
 # VS Code test files
 .vscode-test/
 .vscode-test.mjs
 
-# Source code (TS) is compiled to out/, don't include TS files
-src/**/*.ts
-src/**/*.mjs
-
 # Git and version control
 .git/
 .gitignore
 
-# Config files
+# Config files we don't need in the package
 .vscode/**
 .vsc-extension-quickstart.md
 tsconfig.json
@@ -23,6 +18,10 @@ eslint.config.mjs
 
 # Maps and compiled extras
 **/*.map
+
+# Ignore source TS files (compiled output is included)
+src/**/*.ts
+src/**/*.mjs
 
 # Ignore local Python virtual environment
 venv/
