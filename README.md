@@ -2,6 +2,7 @@
 
 **VS Code Extension** – Detect AI-generated code instantly as you paste
 ---
+<img width="1230" height="761" alt="Képernyőfotó 2025-09-06 - 23 51 03" src="https://github.com/user-attachments/assets/d4fd45c6-ff98-4d59-8d13-399b1390ab5c" />
 
 ## Features
 
