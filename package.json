@@ -1,22 +1,36 @@
 {
   "name": "ai-detector",
-  "displayName": "ai-detector",
-  "description": "Detects AI-generated code in VS Code",
+  "displayName": "AI Detector",
+  "description": "Detects AI-generated code in VS Code and playfully insults the user if AI code is detected.",
   "version": "0.0.1",
   "publisher": "bence132",
   "engines": {
-    "vscode": "^1.103.0"
+    "vscode": "^1.75.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": ["*"],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "main": "./out/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tbence132545/Ai-copypaste-insult.git"
+  },
+  "keywords": [
+    "ai",
+    "detector",
+    "copypaste",
+    "code",
+    "fun"
+  ],
+  "license": "MIT",
   "contributes": {
     "commands": [
       {
         "command": "ai-detector.checkCode",
-        "title": "Check code with ai detector"
+        "title": "Check code with AI Detector"
       }
     ]
   },
