@@ -2,7 +2,7 @@
   "name": "ai-detector",
   "displayName": "AI copy & paste insults",
   "description": "Detects AI-generated code in VS Code and playfully insults the user if AI code is detected.",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "publisher": "bence132",
   "engines": {
     "vscode": "^1.103.0"
@@ -43,14 +43,18 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.103.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "22.x",
+    "@types/node-fetch": "^2.6.13",
+    "@types/vscode": "^1.103.0",
     "@typescript-eslint/eslint-plugin": "^8.42.0",
     "@typescript-eslint/parser": "^8.42.0",
-    "eslint": "^9.34.0",
-    "typescript": "^5.9.2",
     "@vscode/test-cli": "^0.0.11",
-    "@vscode/test-electron": "^2.5.2"
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.34.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }
